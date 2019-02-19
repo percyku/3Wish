@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="a3wish.main.com.aims212.sam.a3wish.member.RegisterActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.8">
+
+
+        <android.support.v7.widget.Toolbar
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="建立帳號"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+        </android.support.v7.widget.Toolbar>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:text="帳戶"
+            android:textColor="@color/colorBlack"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="5dp">
+
+
+
+            <EditText
+                android:id="@+id/idEdt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="abcd@anymail.com"
+                android:textColor="#9e9e9e"
+                android:layout_weight="0.8"
+                android:theme="@style/MyEditTextTheme"/>
+
+            <ImageView
+                android:id="@+id/idIm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:layout_gravity="center_vertical"
+                android:src="@android:drawable/ic_delete"
+                android:visibility="invisible"/>
+
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="密碼"
+            android:textColor="@color/colorBlack"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="5dp">
+
+            <EditText
+                android:id="@+id/passwordsEdt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="請輸入六位密碼"
+                android:textColor="#9e9e9e"
+                android:layout_weight="0.8"
+                android:inputType="textPassword"
+                android:theme="@style/MyEditTextTheme"/>
+
+            <ImageView
+                android:id="@+id/passwordsIm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:layout_gravity="center_vertical"
+                android:src="@android:drawable/ic_delete"
+                android:visibility="invisible"/>
+
+
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="密碼"
+            android:textColor="@color/colorBlack"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="5dp">
+
+            <EditText
+                android:id="@+id/passwordsAgainEdt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="請再輸入六位密碼"
+                android:textColor="#9e9e9e"
+                android:layout_weight="0.8"
+                android:inputType="textPassword"
+                android:theme="@style/MyEditTextTheme"/>
+
+            <ImageView
+                android:id="@+id/passwordsAgainIm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:layout_gravity="center_vertical"
+                android:src="@android:drawable/ic_delete"
+                android:visibility="invisible"/>
+
+
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="暱稱"
+            android:textColor="@color/colorBlack"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="5dp">
+
+            <EditText
+                android:id="@+id/nameEdt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:hint="請輸入您的小名"
+                android:textColor="#9e9e9e"
+
+                android:theme="@style/MyEditTextTheme"/>
+
+            <ImageView
+                android:id="@+id/nameIm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:layout_gravity="center_vertical"
+                android:src="@android:drawable/ic_delete"
+                android:visibility="invisible"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="性別"
+            android:textColor="@color/colorBlack"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp">
+            <RadioButton
+                android:id="@+id/boyRdb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="男"
+                android:checked="true"/>
+            <RadioButton
+                android:id="@+id/girlRdb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="女"/>
+
+        </RadioGroup>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="角色"
+            android:textColor="@color/colorBlack"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp">
+            <RadioButton
+                android:id="@+id/hopeRdb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="許願者"
+                android:checked="true"/>
+            <RadioButton
+                android:id="@+id/achieveRdb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="圓夢者"/>
+
+        </RadioGroup>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.2"
+        android:gravity="bottom">
+
+        <Button
+            android:id="@+id/registerBt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary"
+            android:text="完成"
+            android:textColor="@color/colorWhite"
+            android:onClick="OnRegisterBT"/>
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

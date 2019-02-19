@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="a3wish.main.com.aims212.sam.a3wish.InformationActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="許願內容"
+            android:textSize="24dp"/>
+
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <ImageView
+        android:id="@+id/im_head"
+        android:layout_width="117dp"
+        android:layout_height="151dp"
+        android:src="@drawable/headw"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:id="@+id/txt_information"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="圓夢"
+        android:layout_gravity="center"
+        android:id="@+id/checkHopeBt"
+        android:onClick="OnCheckHopeClick"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/custom_button_center_press"/>
+
+
+</LinearLayout>

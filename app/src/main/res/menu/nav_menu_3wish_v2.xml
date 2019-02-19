@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--接者製作子項目-->
+
+    <!--這邊還看不出來是因為等等要放在剛剛NavigationView，就會呈現出抽屜的選項了！-->
+    <item android:title="個人資料">
+
+        <menu>
+            <item
+                android:id="@+id/nav_sub_updatemember"
+                android:icon="@mipmap/ic_launcher"
+                android:title="修改個人資料"/>
+            <item
+                android:id="@+id/nav_sub_updatepasswords"
+                android:icon="@mipmap/ic_launcher"
+                android:title="修改密碼"/>
+
+            <item
+                android:id="@+id/nav_sub_logout"
+                android:icon="@mipmap/ic_launcher"
+                android:title="登出"/>
+
+
+        </menu>
+
+
+
+
+    </item>
+
+</menu>

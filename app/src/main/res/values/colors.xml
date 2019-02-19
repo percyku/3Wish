@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1e38de</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorAccewnt">#FF4081</color>
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGray">#e4e1e1</color>
+
+    <color name="colorTextPress">#ffffff</color>
+    <color name="colorTextNormal">#65C3C1</color>
+
+
+    <color name="app_maincontent_title">#71A9CA</color>
+</resources>

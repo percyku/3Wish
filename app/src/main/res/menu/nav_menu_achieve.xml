@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--checkableBehavior是為了單一點擊，不讓他複選。icon這邊也可以依你製作的圖片放入，放入位置應該是在drawable-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_wish"
+            android:icon="@mipmap/ic_launcher"
+            android:title="許願清單"
+            />
+        <item
+            android:id="@+id/nav_achieve"
+            android:icon="@mipmap/ic_launcher"
+            android:title="圓夢事件"
+            />
+
+
+
+
+    </group>
+
+    <!--接者製作子項目-->
+
+    <!--這邊還看不出來是因為等等要放在剛剛NavigationView，就會呈現出抽屜的選項了！-->
+    <item android:title="個人資料">
+
+        <menu>
+            <item
+                android:id="@+id/nav_sub_updatemember"
+                android:icon="@mipmap/ic_launcher"
+                android:title="修改個人資料"/>
+            <item
+                android:id="@+id/nav_sub_updatepasswords"
+                android:icon="@mipmap/ic_launcher"
+                android:title="修改密碼"/>
+
+            <item
+                android:id="@+id/nav_sub_achieve"
+                android:icon="@mipmap/ic_launcher"
+                android:title="切換成許願者"/>
+            <item
+                android:id="@+id/nav_sub_logout"
+                android:icon="@mipmap/ic_launcher"
+                android:title="登出"/>
+
+
+
+        </menu>
+
+
+
+
+    </item>
+
+</menu>
