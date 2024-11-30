@@ -45,5 +45,5 @@
 
  - 此App 為 [三星「#我挺不一樣」銀河創新校園計畫](https://contest.bhuntr.com/tw/builderaliasab3fb959aa4e43c0a77065b01d99ca51/) 的DEMO
  - 需搭配 [Window Service](https://github.com/percyku/3Wish-Server) ，透過Get,Post處理 User information and Other function
- - 目前因為年久失修，會與當前Android 版本不相容
+ - 於2017創建，因為年久失修，會與當前Android 版本不相容
  - Google OAuth 2.0 相關服務之金鑰已失效
