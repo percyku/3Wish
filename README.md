@@ -27,17 +27,17 @@
 
  - 基本操作(註冊帳號,修改個人訊息)
    
-   [![IMAGE ALT TEXT](https://i9.ytimg.com/vi_webp/NxLazdrPkig/mqdefault.webp?v=674aff56&sqp=CNCurboG&rs=AOn4CLDVXWjbjBHlPNpMewpCLPB23vSajQ)](https://www.youtube.com/watch?v=NxLazdrPkig)
- 
+   [<img src="images/video_1.png">](https://www.youtube.com/watch?v=NxLazdrPkig)
+
 
  - 許願與圓夢者操作(上傳和接收圖片影片)
    
-   [![IMAGE ALT TEXT](https://i9.ytimg.com/vi/nKDhe5kFYbU/mqdefault.jpg?sqp=CJyIrLoG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGFsgYihlMA8=&rs=AOn4CLD9N5o_euS4iI0Rv2q_-qoJ8niyPQ)](https://www.youtube.com/watch?v=nKDhe5kFYbU)
- 
+   [<img src="images/video_2.png">](https://www.youtube.com/watch?v=nKDhe5kFYbU)
+
 
  - 忘記密碼(如何重設密買)
 
-   [![IMAGE ALT TEXT](https://i9.ytimg.com/vi_webp/x5WO3NPCH4E/mqdefault.webp?v=674b0547&sqp=CMiKrLoG&rs=AOn4CLCkrGHy2Ucn0Io2rAoN4d_UBmyUbw)](https://www.youtube.com/watch?v=x5WO3NPCH4E)
+   [<img src="images/video_3.png">](https://www.youtube.com/watch?v=x5WO3NPCH4E)
 
 
 
